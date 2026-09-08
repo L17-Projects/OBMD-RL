@@ -20,7 +20,7 @@ $$
 The angle $\theta_t$ is obtained from the optimal proper rotation $R_t$ returned by Kabsch alignment:
 
 $$
-\theta_t=\arccos\!\left[\frac{\operatorname{tr}(R_t)-1}{2}\right].
+\theta_t=\arccos\left[\frac{\mathrm{tr}(R_t)-1}{2}\right].
 $$
 
 Centering makes this objective invariant to global translation. Random initial and target rotations make the policy goal-conditioned over orientations rather than specialized to one target.
