@@ -1,10 +1,9 @@
- protein_env.py  (modified to use per-env workdir)
 import gymnasium as gym
 from gymnasium import spaces
 import numpy as np
 import shutil
 import os
-from Q_funalgo import read_data, shear_to_positions, write_lammps_script, read_data
+from Q_funalgo import read_data, shear_to_positions, write_lammps_script
 
 def random_rotation_matrix(rng=None):
     _rng = rng if rng is not None else np.random
